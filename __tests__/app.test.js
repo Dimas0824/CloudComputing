@@ -2,7 +2,9 @@ const assert = require('node:assert/strict');
 const { createServer } = require('node:http');
 const { after, before, test } = require('node:test');
 
-const { app, RESPONSE_TEXT } = require('../app');
+const { app } = require('../app');
+
+const EXPECTED_RESPONSE_TEXT = 'CI/CD pipeline is working';
 
 let server;
 let baseUrl;
@@ -41,5 +43,5 @@ test('GET / returns the expected response body', async () => {
   const response = await fetch(`${baseUrl}/`);
   const body = await response.text();
 
-  assert.equal(body, RESPONSE_TEXT);
+  assert.equal(body, EXPECTED_RESPONSE_TEXT);
 });
