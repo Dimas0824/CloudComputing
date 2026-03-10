@@ -1,0 +1,17 @@
+{
+  "name": "simple-cicd-app",
+  "version": "1.0.0",
+  "description": "A simple Node.js app for demonstrating a CI/CD pipeline with GitHub Actions.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "cicd",
+    "github-actions",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "MIT"
+}
