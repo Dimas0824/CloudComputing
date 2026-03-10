@@ -1,4 +1,4 @@
-const RESPONSE_TEXT = 'CI/CD pipeline is working';
+const RESPONSE_TEXT = 'CI/CD pipeline berhasil dijalankan!';
 
 function app(req, res) {
   if (req.method === 'GET' && req.url === '/') {

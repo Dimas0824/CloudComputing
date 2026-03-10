@@ -1,6 +1,6 @@
 # Simple CI/CD App
 
-Project ini adalah aplikasi Node.js sederhana untuk memenuhi tugas praktikum CI/CD menggunakan GitHub Actions. Aplikasi menyediakan endpoint `GET /` yang mengembalikan teks `CI/CD pipeline is working`.
+Project ini adalah aplikasi Node.js sederhana untuk memenuhi tugas praktikum CI/CD menggunakan GitHub Actions. Aplikasi menyediakan endpoint `GET /` yang mengembalikan teks `CI/CD pipeline berhasil dijalankan!`.
 
 ## Menjalankan aplikasi secara lokal
 
